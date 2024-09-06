@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hertopia Pilates</title>
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="./Images/favicon/favicon_new.ico"
+      type="image/x-icon"
+    />
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schedule -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+
+    <link rel="stylesheet" href="./css/hertopia.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <div class="nav">
+        <h3 class="studio nav_item poppins centered-div">
+          <a href="./studio.html">Studio</a>
+        </h3>
+        <h3 class="about nav_item poppins centered-div">
+          <a href="./about.html">About</a>
+        </h3>
+        <h3 class="schedule nav_item poppins centered-div">
+          <a href="./schedule.html">Schedule</a>
+        </h3>
+        <h3 class="contact nav_item poppins centered-div">
+          <a href="./contact.html">Contact</a>
+        </h3>
+        <h3 class="booking nav_item poppins centered-div">
+          <!-- Calendly link widget begin -->
+
+          <a
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hzhangstudy'});return false;"
+            >Booking</a
+          >
+          <!-- Calendly link widget end -->
+        </h3>
+      </div>
+    </header>
+
+    <div class="studio_section w">
+      <h1 class="poppins">Studio</h1>
+      <div class="front_desk studio_view"></div>
+      <div class="private_class studio_view"></div>
+      <div class="group_class studio_view"></div>
+    </div>
+
+    <div class="about_section">
+      <div class="w">
+        <h1 class="poppins">About</h1>
+        <div class="introduction">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
+          malesuada. Nullam auctor est sed magna vulputate, et ultrices ligula
+          aliquam. Integer vitae erat a arcu fermentum dignissim. Aliquam erat
+          volutpat. Pellentesque auctor, libero vel vehicula aliquet, quam orci
+          sagittis nisi, non dignissim enim erat ut leo. Proin a nibh sed sapien
+          scelerisque consequat. Suspendisse potenti. Morbi nec urna vitae dolor
+          ultrices fermentum. Quisque lacinia, elit a dictum dignissim, nulla
+          velit fermentum sapien, ut sodales felis eros vel sapien. Etiam vitae
+          justo nec erat vulputate euismod. Sed sed neque id nunc condimentum
+          placerat. Mauris vitae arcu ac nisl bibendum sodales sit amet et
+          lacus.
+        </div>
+      </div>
+    </div>
+
+    <div class="booking">
+      <!-- Calendly badge widget begin -->
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        type="text/javascript"
+        async
+      ></script>
+      <script type="text/javascript">
+        window.onload = function () {
+          Calendly.initBadgeWidget({
+            url: "https://calendly.com/hzhangstudy",
+            text: "Schedule time with me",
+            color: "#0069ff",
+            textColor: "#ffffff",
+            branding: true,
+          });
+        };
+      </script>
+      <!-- Calendly badge widget end -->
+    </div>
+  </body>
+</html>
