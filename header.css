@@ -1,6 +1,11 @@
+header {
+  background-color: #f1edda;
+  padding: 20px 0;
+}
+
 .logo {
-  margin: auto 15px;
-  height: 48px;
+  margin-left: 15px;
+  height: 50px;
   width: 300px;
   background: url(./images/logo.png) no-repeat center;
   background-size: contain;
@@ -10,7 +15,6 @@
   display: flex;
   color: #903f2b;
   font-size: 1.2rem;
-  background-color: #f1edda;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -51,7 +55,7 @@
   .nav-links {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 100px;
     right: 0;
     background-color: #f1edda;
     width: 100%;
