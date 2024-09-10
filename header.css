@@ -5,7 +5,7 @@ header {
   background-color: #f1edda;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 15vh;
 }
 
 .logo {
@@ -18,8 +18,12 @@ header {
 
 .nav > ul {
   display: flex;
-  margin-right: 50px;
-  gap: 50px;
+  margin: auto 25px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.nav > ul > li {
+  padding-right: 25px;
 }
