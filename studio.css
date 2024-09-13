@@ -1,0 +1,43 @@
+.studio {
+  display: flex;
+  justify-content: center;
+}
+
+.displayview {
+  width: 100%;
+  height: 780px;
+  background-size: cover;
+}
+
+.frontdeskdisplay {
+  background: url(./images/display/front_desk.png) no-repeat center;
+}
+
+.groupclassdisplay {
+  background: url(./images/display/group_class.png) no-repeat center;
+}
+
+.privateclassdisplay {
+  background: url(./images/display/private_class.png) no-repeat center;
+}
+
+.facade {
+  background: url(./images/display/front_desk.png) no-repeat center;
+}
+
+.frontdeskphonedisplay {
+  display: none;
+  background: url(./images/display/front_desk_phone.png);
+}
+
+@media (max-width: 768px) {
+  .frontdeskdisplay,
+  .groupclassdisplay,
+  .privateclassdisplay,
+  .facade {
+    display: none;
+  }
+  .frontdeskphonedisplay {
+    display: flex;
+  }
+}
