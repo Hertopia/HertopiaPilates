@@ -12,12 +12,13 @@
       type="image/x-icon"
     />
 
+    <!-- css -->
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="studio.css" />
+    <link rel="stylesheet" href="showroom.css" />
   </head>
   <body>
-    <header>
+    <header class="poppins">
       <nav class="navbar poppins">
         <div class="logo"></div>
         <ul class="nav-links" id="navLinks">
@@ -27,7 +28,6 @@
           <li><a href="#" class="contactlink">Contact</a></li>
           <li><a href="#" class="bookinglink">Booking</a></li>
         </ul>
-
         <div class="burger" id="burger">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -36,19 +36,22 @@
       </nav>
     </header>
 
-    <section class="display">
-      <div class="carousel">
-        <div class="carousel-images">
-          <img src="./images/display/front_desk.png" alt="Image 1" />
-          <img src="./images/display/group_class.png" alt="Image 2" />
-          <img src="./images/display/private_class.png" alt="Image 3" />
-        </div>
-        <button class="prev-btn">❮</button>
-        <button class="next-btn">❯</button>
+    <section class="showroom carousel">
+      <div class="carousel-images">
+        <img src="./images/showroom/front_desk.png" alt="Image 1" />
+        <img src="./images/showroom/group_class.png" alt="Image 2" />
+        <img src="./images/showroom/private_class.png" alt="Image 3" />
       </div>
+      <button class="prev-btn">❮</button>
+      <button class="next-btn">❯</button>
     </section>
 
+    <section class="pricing">bbb</section>
+    <section class="contact">ccc</section>
+    <footer>456</footer>
+
+    <!-- script -->
     <script src="./header.js"></script>
-    <script src="./studio.js"></script>
+    <script src="showroom.js"></script>
   </body>
 </html>
